@@ -1,14 +1,63 @@
-# Official [GeekLab](http://geeklab.in) blog
-Uses [Jekyll 2.0.3](http://jekyllrb.com/) and [Incorporated theme](http://incorporated.sendtoinc.com/) by Inc.
+# Jekyll Incorporated
+Modern Jekyll based blog. Great for companies, products or anything. See live at [blog.sendtoinc.com](http://blog.sendtoinc.com)
 
-##Documentation
+## Installation & Usage
+    bundle install
+    jekyll serve --watch
 
-The source has been separated from the content to allow GitHub pages to parse third-party plugins used. Read [David Ensinger's post](http://davidensinger.com/2013/04/deploying-jekyll-to-github-pages/) or [Charlie Park's post](http://charliepark.org/jekyll-with-plugins/) to learn more.
+_Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
+    
+## Configuration
+Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
 
-The *source* branch contains the Jekyll source files and the *master* branch contains the generated static site content.
+```
+jekyll-incorporated/
+├── _config.yml
+├── _assets/
+    ├── stylesheets/
+        ├── main.scss
+```
 
-Everything else is according to standard Jekyll format.
+_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
 
-##Content authors
+    
+## Publish to Github Pages
+1. Add your domain to _CNAME_
+2. Edit your repo address at _Rakefile_
+    
+Run rake task. **NOTE: It will deploy the generated site to _gh-pages_ branch overwriting it**    
+``` 
+rake site:publish
+```
 
-[Rohaan Goswami](https://github.com/rohaan911/) and [Anurag Kumar](https://github.com/anurag619).
+## Usage examples
+
+* Adroll Engineering http://tech.adroll.com/
+* Brace.io blog http://blog.brace.io/
+* Spark.io blog http://blog.spark.io/
+* Department of Better Technology http://blog.dobt.co/
+
+## Authors
+
+Originally build for [sendtoinc.com](https://sendtoinc.com), your workspace for sharing and organizing knowledge
+
+**Karri Saarinen**
+
++ [http://twitter.com/karrisaarinen](http://twitter.com/karrisaarinen)
++ [http://github.com/ksaa](http://github.com/ksaa)
+
+**Jori Lallo**
+
++ [http://twitter.com/jorilallo](http://twitter.com/jorilallo)
++ [http://github.com/jorde](http://github.com/jorilallo)
+
+## Todo:
+
++ Documentation
++ Less config files
++ Better deploy scripts
+
+## Copyright and license
+
+Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)
+
