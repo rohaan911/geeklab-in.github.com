@@ -1,4 +1,4 @@
-###Update: The GeekLab project has now been discontinued.
+###Note: The GeekLab project has now been discontinued.
 
 # Official demo blog for GeekLab
 Uses [Jekyll 2.0.3](http://jekyllrb.com/) and [Incorporated theme](http://incorporated.sendtoinc.com/) by Inc.
