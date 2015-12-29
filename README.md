@@ -1,4 +1,6 @@
-# Official [GeekLab](http://geeklab.in) blog
+##Update: The GeekLab project has now been discontinued.
+
+# Official [GeekLab]blog
 Uses [Jekyll 2.0.3](http://jekyllrb.com/) and [Incorporated theme](http://incorporated.sendtoinc.com/) by Inc.
 
 ##Documentation
